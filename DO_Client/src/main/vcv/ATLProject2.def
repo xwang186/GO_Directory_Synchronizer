@@ -1,0 +1,257 @@
+; ATLProject2.def : Declares the module parameters.
+
+LIBRARY
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+eclares the module parameters.
+
+LIBRARY
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+rameters.
+
+LIBRARY
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+loadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+lGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+TE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+r	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+sterServer	PRIVATE
+	DllInstall		PRIVATE
+DllInstall		PRIVATE
+
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+rameters.
+
+LIBRARY
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+loadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+lGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+TE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+r	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+sterServer	PRIVATE
+	DllInstall		PRIVATE
+DllInstall		PRIVATE
+DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+loadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+lGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+TE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+r	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+sterServer	PRIVATE
+	DllInstall		PRIVATE
+DllInstall		PRIVATE
+TS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+loadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+lGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+TE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+r	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+sterServer	PRIVATE
+	DllInstall		PRIVATE
+DllInstall		PRIVATE
+
+	DllInstall		PRIVATE
+loadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+lGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+TE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+r	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+sterServer	PRIVATE
+	DllInstall		PRIVATE
+DllInstall		PRIVATE
+ver	PRIVATE
+	DllInstall		PRIVATE
+lGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+TE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+r	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+sterServer	PRIVATE
+	DllInstall		PRIVATE
+DllInstall		PRIVATE
+E
+	DllInstall		PRIVATE
+TE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+r	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+sterServer	PRIVATE
+	DllInstall		PRIVATE
+DllInstall		PRIVATE
+ATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+sterServer	PRIVATE
+	DllInstall		PRIVATE
+DllInstall		PRIVATE
+
+	DllInstall		PRIVATE
+sterServer	PRIVATE
+	DllInstall		PRIVATE
+DllInstall		PRIVATE
+E
+	DllInstall		PRIVATE
+TE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+r	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+sterServer	PRIVATE
+	DllInstall		PRIVATE
+DllInstall		PRIVATE
+ATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+sterServer	PRIVATE
+	DllInstall		PRIVATE
+DllInstall		PRIVATE
+
+	DllInstall		PRIVATE
+DllInstall		PRIVATE
+
+	DllInstall		PRIVATE
+sterServer	PRIVATE
+	DllInstall		PRIVATE
+DllInstall		PRIVATE
+E
+	DllInstall		PRIVATE
+TE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+r	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+sterServer	PRIVATE
+	DllInstall		PRIVATE
+DllInstall		PRIVATE
+ATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE
+sterServer	PRIVATE
+	DllInstall		PRIVATE
+DllInstall		PRIVATE

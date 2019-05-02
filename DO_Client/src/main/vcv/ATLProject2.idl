@@ -1,0 +1,211 @@
+/////////////////////////////////////////////////////////////////////
+// ATLProject2.idl : IDL source for ATLProject2                    //
+//                                                                 //
+// Jim Fawcett, CSE775 - Distributed Objects ATL demonstration     //
+/////////////////////////////////////////////////////////////////////
+
+// This file will be processed by the MIDL tool to
+// produce the type library (ATLProject2.tlb) and marshalling code.
+
+/*
+ * Creating simple inproc component with ATL:
+ * ------------------------------------------
+ * 1. Create a C++ ATL Project
+ *      That creates an empty inproc server if you chose InProc type in wizard
+ * 2. Add class > simple ATL object and follow wizard instructions
+ * 3. Switch to class view, right click on the interface and add methods
+ *      Each time you add a method you have to restart the add method wizard
+ *      for the next method.  You can't add more than one method in a single pass.
+ * 4. Fill in code for the method bodies.
+ * 5. Create a C# console project
+ * 6. Add a reference to the ATL project
+ * 6. Open the ObjectBrowser (from view menu) and find the ATL project namespace
+ * 7. Using the namespace, interface, and class names you see there, create C#
+ *    code to call the component's methods
+ * 8. Fini
+ */
+/*
+ * To add connection point:
+ * ------------------------
+ * This assumes you've checked the support connection points in the ATL
+ * Simple Object wizard.  That gives you an _ITestEvents_CP.h file.
+ * Now:
+ * - In class view, select the _ITestEvents interface and add a method.
+ *   I added Notify(BSTR str).
+ * - Still in class view, right-click on the component class, CTest.
+ *   Select Add > Add Connection Point ...
+ * - In the Connection Point Wizard select the source innterface, _ITestEvents
+ *   and click Finish.
+ * - Rebuild the component and register
+ *
+ * - Here's MSDN reference: https://msdn.microsoft.com/en-us/library/s7zd1wd1.aspx
+ */
+/*
+ * Rebuilding projects in this solution:
+ * -------------------------------------
+ * 1. Make sure you are running Visual Studio as administrator.
+ * 2. Right-click on idl file and select compile.
+ * 3. Rebuild ATLProject2 and register using Tools > Register Component.
+ *    This step assumes you've added Register Component to your External Tools.
+ *    Otherwise you have to navigate to the project debug directory and run
+ *    regsvr32 ATLProject2.dll.
+ * 4. Add a COM reference to ATLProjectLib2 for the C# client project.
+ * 5. The CppClient doesn't need a reference.
+ * 6. Set whichever client you want to run as startup and go!
+ */
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(457651B4-5871-4E19-9726-5CE3339E1ABF),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface ITest : IDispatch{
+  [id(1)] HRESULT PutString([in] BSTR str);
+  [id(2)] HRESULT GetString(BSTR* str);
+  [id(3)] HRESULT FindLines([in] BSTR str1, [in] BSTR str2, BSTR* str);
+  [id(4)] HRESULT FindFiles([in] BSTR str1, [in] BSTR str2, BSTR* str);
+  [id(5)] HRESULT FindAllFiles([in] BSTR str1, [in] BSTR str2, BSTR* str);
+  [id(6)] HRESULT GetFileList(VARIANT* str);
+};
+[
+	uuid(BD1B3796-457D-43BB-8265-3BCFC05CE270),
+	version(1.0),
+]
+library ATLProject2Lib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(21303CFD-EE31-46DC-AF36-7D2AE499194E)		
+	]
+	dispinterface _ITestEvents
+	{
+		properties:
+		methods:
+      [id(1), source] HRESULT Notify(BSTR str);
+  };
+	[
+		uuid(060FA8F2-43A2-4C1B-B7B7-3BEDB3D4AA5A)		
+	]
+	coclass Test
+	{
+		[default] interface ITest;
+		[default, source] dispinterface _ITestEvents;
+	};
+};
+
+2Lib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(21303CFD-EE31-46DC-AF36-7D2AE499194E)		
+	]
+	dispinterface _ITestEvents
+	{
+		properties:
+		methods:
+      [id(1), source] HRESULT Notify(BSTR str);
+  };
+	[
+		uuid(060FA8F2-43A2-4C1B-B7B7-3BEDB3D4AA5A)		
+	]
+	coclass Test
+	{
+		[default] interface ITest;
+		[default, source] dispinterface _ITestEvents;
+	};
+};
+
+face _ITestEvents;
+	};
+};
+
+2Lib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(21303CFD-EE31-46DC-AF36-7D2AE499194E)		
+	]
+	dispinterface _ITestEvents
+	{
+		properties:
+		methods:
+      [id(1), source] HRESULT Notify(BSTR str);
+  };
+	[
+		uuid(060FA8F2-43A2-4C1B-B7B7-3BEDB3D4AA5A)		
+	]
+	coclass Test
+	{
+		[default] interface ITest;
+		[default, source] dispinterface _ITestEvents;
+	};
+};
+
+ce] dispinterface _ITestEvents;
+	};
+};
+
+face _ITestEvents;
+	};
+};
+
+2Lib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(21303CFD-EE31-46DC-AF36-7D2AE499194E)		
+	]
+	dispinterface _ITestEvents
+	{
+		properties:
+		methods:
+      [id(1), source] HRESULT Notify(BSTR str);
+  };
+	[
+		uuid(060FA8F2-43A2-4C1B-B7B7-3BEDB3D4AA5A)		
+	]
+	coclass Test
+	{
+		[default] interface ITest;
+		[default, source] dispinterface _ITestEvents;
+	};
+};
+
+e] dispinterface _ITestEvents;
+	};
+};
+
+ce] dispinterface _ITestEvents;
+	};
+};
+
+face _ITestEvents;
+	};
+};
+
+2Lib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(21303CFD-EE31-46DC-AF36-7D2AE499194E)		
+	]
+	dispinterface _ITestEvents
+	{
+		properties:
+		methods:
+      [id(1), source] HRESULT Notify(BSTR str);
+  };
+	[
+		uuid(060FA8F2-43A2-4C1B-B7B7-3BEDB3D4AA5A)		
+	]
+	coclass Test
+	{
+		[default] interface ITest;
+		[default, source] dispinterface _ITestEvents;
+	};
+};
+
